@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="C:\Users\Amira\Downloads\Hayina logo.png" width="120" alt="Hayyina logo">
+<img src="images\Hayina logo.png" width="120" alt="Hayyina logo">
 
 # Hayyina · حيّنا
 
@@ -408,7 +408,7 @@ All endpoints start with `/v1/api`. Sign-up and login endpoints are public, and 
 
 ## 🧩 Endpoints
 
-<img src="https://cdn.simpleicons.org/anthropic" width="16"> = powered by Claude.
+<img src="https://cdn.simpleicons.org/anthropic" width="16">
 
 <details open>
 <summary>&nbsp;<b>Authentication</b> (7)</summary>
