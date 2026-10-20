@@ -384,7 +384,7 @@ All endpoints start with `/v1/api`. Sign-up and login endpoints are public, and 
 <table>
   <tr>
     <td align="center" width="33%">
-      <a href="https://github.com/AhmadAlhamami"><img src="https://github.com/AhmadAlhamami.png" width="100" alt="Member"><br><b>ِAhmad Alhamami</b></a><br>
+      <a href="https://github.com/AHMEDALHAMAMI"><img src="https://github.com/AHMEDALHAMAMI.png" width="100" alt="Member"><br><b>ِAhmad Alhamami</b></a><br>
       <sub><img src="https://cdn.simpleicons.org/anthropic" width="16"> AI feature</sub><br><br>
       Responsibilities<br><br>
       <b>0</b> extra endpoints
@@ -410,7 +410,7 @@ All endpoints start with `/v1/api`. Sign-up and login endpoints are public, and 
   <tr>
     <td align="center" width="33%">
       <a href="https://www.linkedin.com/in/ahmedalhamami"><img src="https://github.com/AhmadAlhamami.png" width="100" alt="Ahmad Alhamami"><br><b>Ahmad Alhamami</b></a><br><br>
-      <a href="https://www.linkedin.com/in/ahmedalhamami"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+      <a href="https://github.com/AHMEDALHAMAMI"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
     </td>
     <td align="center" width="33%">
       <a href="https://www.linkedin.com/in/waleed-alaql"><img src="https://github.com/WaleedAlaql.png" width="100" alt="Waleed Alaql"><br><b>Waleed Alaql</b></a><br><br>
