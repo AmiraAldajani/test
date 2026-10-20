@@ -21,7 +21,7 @@
 
 ---
 
-Hayyina (حيّنا) is a platform where neighborhood residents request the shops and services they're missing, and investors use that verified demand to pick the right project and the right location. Before any idea goes live, AI checks whether the activity is really scarce nearby and whether a similar idea already exists, then helps the idea owner build a business model. Posting and joining are free, and every resident who joins becomes a founding member. When a request is complete, investors unlock it with a one-time fee or a success partnership, and if they adopt it, the idea owner and founding members get perks in the new business. It starts with a pilot in Riyadh neighborhoods.
+Naseej is a platform where neighborhood residents request the shops and services they're missing, and investors use that verified demand to pick the right project and the right location. Before any idea goes live, AI checks whether the activity is really scarce nearby and whether a similar idea already exists, then helps the idea owner build a business model. Posting and joining are free, and every resident who joins becomes a founding member. When a request is complete, investors unlock it with a one-time fee or a success partnership, and if they adopt it, the idea owner and founding members get perks in the new business. It starts with a pilot in Riyadh neighborhoods.
 
 > The prototype has 16 connected screens across three journeys: resident, idea owner and investor.
 
@@ -166,65 +166,10 @@ The search radius depends on the activity, for example:
 | `SIMILAR_EXISTS` | A close idea is posted in the same or a nearby neighborhood | Join it, or publish separately and explain the difference |
 | `SATURATED` | Competitors clearly above the city average (e.g. 9 barbershops within 1.5 km) | An alternative activity that is scarce in the same neighborhood |
 
-## 🔄 Idea Lifecycle
-
-```mermaid
-flowchart LR
-    A[Idea screened and published] --> B[Residents join for free]
-    B --> C{150 verified members?}
-    C -- Yes --> D[Feasibility study and investor alerts]
-    D --> E[Investor pays 1,500 SAR or picks success partnership]
-    E --> F[Investor adopts and sets member perks]
-    F --> G[Both sides sign the contract]
-    G --> H{Opened within 90 days?}
-    H -- Yes --> I[Idea owner and members get their perks]
-    H -- No --> J[Contract terminated and opportunity reopens]
-```
-
-Residents never pay at any stage. Their return comes only when an investor adopts the idea:
-
-| Who | When | What they get |
-|---|---|---|
-| Idea owner | When an investor adopts the idea | The "idea owner" title in the business and the highest level of founding-member perks |
-| Founding members | When the business opens | Permanent perks set by the investor, such as a discount or priority service |
-
-## ✍️ Contracts
-
-When an investor adopts an idea, the platform records a contract between the investor and the idea owner, with the platform as coordinator and witness.
-
-```mermaid
-sequenceDiagram
-    participant I as Investor
-    participant S as Spring Boot
-    participant N as n8n
-    participant O as Idea owner
-    I->>S: Adopt opportunity
-    S-->>I: Contract draft from a fixed template
-    I->>S: Set member discount and owner perks
-    I->>S: Sign with typed name, drawn signature and email code
-    S->>N: Owner needs to sign
-    N->>O: WhatsApp notification
-    O->>S: Sign the same way
-    S->>S: Status ACTIVE, opening deadline in 90 days
-    S->>N: CONTRACT_ACTIVE webhook once paid and signed
-    N->>S: Fetch contract data and PDF
-    N->>I: Official email with PDF attached
-    N->>O: Official email with PDF attached
-    N->>S: Log the send status
-```
-
-- **Statuses**: `DRAFT` → `INVESTOR_SIGNED` → `ACTIVE`, or `TERMINATED`.
-- **Signature proof**: each signature saves the typed name, the drawn signature image, the time, the IP address and the email-code result in `contract_signature`.
-- **Sending condition**: the PDF is sent only after the access fee is paid (or the success partnership is signed) and both sides have signed. The admin receives a copy, and founding members are told about their perks.
-
-| Clause | Content |
-|---|---|
-| Investor obligations | Open within 90 days, honor founding-member perks, credit the idea to its owner, update the status every two weeks |
-| Idea owner rights | The "idea owner" title and the highest level of perks at opening |
-| Idea owner obligations | Don't offer the idea to another investor during the contract, keep project data confidential |
-| General | Automatic termination if not opened in time, platform fees by access option, member data shared only in aggregate |
-
-> The contract wording is illustrative and needs a lawyer's review before launch.
+## Usecase Diagram
+<img width="7000" height="6075" alt="Naseej&#39;s Class Diagram" src="assets/docs/UseCaseDiagram" />
+## Class Diagram
+<img width="7000" height="6075" alt="Naseej&#39;s Class Diagram" src="assets/docs/ClassDiagram" />
 
 ## 🔐 Authentication & Roles
 
