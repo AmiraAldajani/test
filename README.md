@@ -404,26 +404,6 @@ All endpoints start with `/v1/api`. Sign-up and login endpoints are public, and 
   </tr>
 </table>
 
-## 📬 Contact
-
-<table>
-  <tr>
-    <td align="center" width="33%">
-      <a href="https://www.linkedin.com/in/ahmedalhamami"><img src="https://github.com/AHMEDALHAMAMI.png" width="100" alt="Ahmad Alhamami"><br><b>Ahmad Alhamami</b></a><br><br>
-      <a href="https://github.com/AHMEDALHAMAMI"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-    </td>
-    <td align="center" width="33%">
-      <a href="https://www.linkedin.com/in/waleed-alaql"><img src="https://github.com/WaleedAlaql.png" width="100" alt="Waleed Alaql"><br><b>Waleed Alaql</b></a><br><br>
-      <a href="https://www.linkedin.com/in/waleed-alaql"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-    </td>
-    <td align="center" width="33%">
-      <a href="https://www.linkedin.com/in/amira-aldajani-2b0296222/"><img src="https://github.com/AmiraAldajani.png" width="100" alt="Amira Aldajani"><br><b>Amira Aldajani</b></a><br><br>
-      <a href="https://www.linkedin.com/in/amira-aldajani-2b0296222/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-    </td>
-  </tr>
-</table>
-
-
 ## 🧩 Endpoints
 
 <img src="https://cdn.simpleicons.org/anthropic" width="16">
@@ -445,3 +425,25 @@ All endpoints start with `/v1/api`. Sign-up and login endpoints are public, and 
 
 <!-- Add one <details> block per team member with their endpoints, in the same format as Authentication above -->
 ## Resources
+
+
+## 📬 Contact
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <a href="https://www.linkedin.com/in/ahmedalhamami"><img src="https://github.com/AHMEDALHAMAMI.png" width="100" alt="Ahmad Alhamami"><br><b>Ahmad Alhamami</b></a><br><br>
+      <a href="https://github.com/AHMEDALHAMAMI"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+    </td>
+    <td align="center" width="33%">
+      <a href="https://www.linkedin.com/in/waleed-alaql"><img src="https://github.com/WaleedAlaql.png" width="100" alt="Waleed Alaql"><br><b>Waleed Alaql</b></a><br><br>
+      <a href="https://www.linkedin.com/in/waleed-alaql"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+    </td>
+    <td align="center" width="33%">
+      <a href="https://www.linkedin.com/in/amira-aldajani-2b0296222/"><img src="https://github.com/AmiraAldajani.png" width="100" alt="Amira Aldajani"><br><b>Amira Aldajani</b></a><br><br>
+      <a href="https://www.linkedin.com/in/amira-aldajani-2b0296222/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+    </td>
+  </tr>
+</table>
+
+
