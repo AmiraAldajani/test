@@ -166,10 +166,21 @@ The search radius depends on the activity, for example:
 | `SIMILAR_EXISTS` | A close idea is posted in the same or a nearby neighborhood | Join it, or publish separately and explain the difference |
 | `SATURATED` | Competitors clearly above the city average (e.g. 9 barbershops within 1.5 km) | An alternative activity that is scarce in the same neighborhood |
 
-## Usecase Diagram
-<img width="7000" height="6075" alt="Naseej&#39;s Class Diagram" src="assets/docs/UseCaseDiagram" />
+## Use Case Diagram
+
+<p align="center">
+  <a href="assets/docs/UseCaseDiagram.svg">
+    <img src="assets/docs/UseCaseDiagram.svg" alt="Naseej's Use Case Diagram" width="100%">
+  </a>
+</p>
+
 ## Class Diagram
-<img width="7000" height="6075" alt="Naseej&#39;s Class Diagram" src="assets/docs/ClassDiagram" />
+
+<p align="center">
+  <a href="assets/docs/ClassDiagram.svg">
+    <img src="assets/docs/ClassDiagram.svg" alt="Naseej's Class Diagram" width="100%">
+  </a>
+</p>
 
 ## 🔐 Authentication & Roles
 
