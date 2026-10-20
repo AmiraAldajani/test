@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="Hayina logo.png" width="250" alt="Hayyina logo">
+<img src="Hayina logo.png" width="250" alt="NaseejLogo">
 
 **Neighborhood demand platform powered by AI**
 
