@@ -384,25 +384,36 @@ All endpoints start with `/v1/api`. Sign-up and login endpoints are public, and 
 <table>
   <tr>
     <td align="center" width="33%">
-      <a href="https://github.com/AhmadAlhamami"><img src="https://github.com/your-github-username.png" width="100" alt="Member"><br><b>ِAhmad Alhamami</b></a><br>
+      <a href="https://github.com/AhmadAlhamami"><img src="https://github.com/AhmadAlhamami.png" width="100" alt="Member"><br><b>ِAhmad Alhamami</b></a><br>
       <sub><img src="https://cdn.simpleicons.org/anthropic" width="16"> AI feature</sub><br><br>
       Responsibilities<br><br>
       <b>0</b> extra endpoints
     </td>
     <td align="center" width="33%">
-      <a href="https://github.com/WaleedAlaql"><img src="https://github.com/your-github-username.png" width="100" alt="Member"><br><b>Waleed Alaql</b></a><br>
+      <a href="https://github.com/WaleedAlaql"><img src="https://github.com/WaleedAlaql.png" width="100" alt="Member"><br><b>Waleed Alaql</b></a><br>
       <sub><img src="https://cdn.simpleicons.org/anthropic" width="16"> AI feature</sub><br><br>
       Responsibilities<br><br>
       <b>0</b> extra endpoints
     </td>
     <td align="center" width="33%">
-      <a href="https://github.com/AmiraAldajani"><img src="https://github.com/your-github-username.png" width="100" alt="Member"><br><b>Amira Aldajani</b></a><br>
+      <a href="https://github.com/AmiraAldajani"><img src="https://github.com/AmiraAldajani.png" width="100" alt="Member"><br><b>Amira Aldajani</b></a><br>
       <sub><img src="https://cdn.simpleicons.org/anthropic" width="16"> AI feature</sub><br><br>
       Responsibilities<br><br>
       <b>0</b> extra endpoints
     </td>
   </tr>
 </table>
+
+## Contact
+ <td align="center" width="33%">
+      <a href="https://www.linkedin.com/in/waleed-alaql"><img src="https://www.linkedin.com/in/waleed-alaql.png" width="100" alt="Member"><br><b>Waleed Alaql</b></a>
+    </td>
+    <td align="center" width="33%">
+      <a href="https://www.linkedin.com/in/ahmedalhammami"><img src="https://www.linkedin.com/in/ahmedalhammami.png" width="100" alt="Member"><br><b>Amira Aldajani</b></a>
+    </td>
+    <td align="center" width="33%">
+      <a href="https://www.linkedin.com/in/amira-aldajani-2b0296222/"><img src="https://www.linkedin.com/in/amira-aldajani-2b0296222/.png" width="100" alt="Member"><br><b>Amira Aldajani</b></a>
+    </td>
 
 ## 🧩 Endpoints
 
@@ -424,3 +435,4 @@ All endpoints start with `/v1/api`. Sign-up and login endpoints are public, and 
 </details>
 
 <!-- Add one <details> block per team member with their endpoints, in the same format as Authentication above -->
+## Resources
