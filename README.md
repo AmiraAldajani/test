@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="images/logo.png" width="120" alt="Hayyina logo">
+<img src="C:\Users\Amira\Downloads\Hayina logo.png" width="120" alt="Hayyina logo">
 
 # Hayyina · حيّنا
 
